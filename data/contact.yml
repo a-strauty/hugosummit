@@ -1,0 +1,22 @@
+enable : true
+heading : Get In
+headingSpan : Touch
+title : Contact Details
+content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
+enable_maps : true
+mapLatitude : 38.731160
+mapLongitude: -121.301030
+contactDetails :
+  - icon : tf-map-pin
+    info : "502 Giuseppe Court, Suite 3 Roseville, CA 95678"
+
+  - icon : tf-ion-ios-telephone-outline
+    info : "Phone: +916-969-4664"
+
+  - icon : tf-ion-iphone
+    info : "Fax: +916-773-1658"
+
+  - icon : tf-ion-ios-email-outline
+    info : "Email: summitroofing@gmail.com"
+
+  - info: "Lic.# 479255"

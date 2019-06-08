@@ -1,0 +1,15 @@
+enable : true
+heading : Who
+headingSpan : We Are
+aboutItem :
+- icon : tf-tools
+  title : Your Neighbor
+  content : Summit Roofing Company, Inc. is a locally owned and operated business with over 25 years of experience in the Sacramento area.
+
+- icon : tf-strategy
+  title : Diligent
+  content : We owe our success to our uncompromising dedication to quality, service, and value. We believe in providing our clients with the best roofing materials and workmanship at the best prices.
+
+- icon : tf-anchor2
+  title : Thorough
+  content : If attention to detail and proper installation of roof systems are your concern, please think of us, Summit Roofing Company, Inc. We are confident that you will be totally satisfied with our performance and workmanship.
