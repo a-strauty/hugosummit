@@ -43,6 +43,13 @@ a {
   color: #212529;
 }
 
+.picture {
+  width: 100%;
+  height: 60vh;
+  background: url("/images/backgrounds/sacramento-iphone.jpeg");
+}
+
+
 .about h3 {
   color: #212529;
 }
@@ -90,6 +97,32 @@ a {
 .about .block {
   background: none;
 }
+
 .about .block .content h3 {
   color: #212529;
+}
+
+.service-block {
+  width: 350px;
+  height: 500px;
+}
+
+.custom-repairs::before {
+  content: url("/images/services/repairs.jpg");
+}
+
+.custom-reroofs::before {
+  content: url("/images/services/reroofs.jpg");
+}
+
+.custom-commercial::before{
+  content: url("/images/services/commercial.jpg");
+}
+
+.custom-residential::before {
+  content: url("/images/services/residential.jpg");
+}
+
+.custom-products::before {
+  content: url("/images/services/products.jpg");
 }
