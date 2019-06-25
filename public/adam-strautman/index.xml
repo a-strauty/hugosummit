@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adam Strautman on Summit Roofing</title>
-    <link>http://example.org/adam-strautman/</link>
+    <link>http://summitdev.adamstrautman.com/adam-strautman/</link>
     <description>Recent content in Adam Strautman on Summit Roofing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/adam-strautman/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://summitdev.adamstrautman.com/adam-strautman/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
