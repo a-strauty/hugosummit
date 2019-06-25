@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://summitdev.adamstrautman.com"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Summit Roofing"
@@ -33,7 +33,7 @@ summaryLength = 10
 [params]
 home= "Home"
 logo = "images/logosmall.svg"
-gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDrBgapa385AKxkq6QLcl05RoH8Zcza_uI&libraries=places"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyD64MykAerTku8hhAM26IB49arpy_gRr-E&libraries=places"
 # Meta data
 description = "Serving your roofing needs"
 author = "Adam Strautman"
