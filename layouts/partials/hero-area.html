@@ -1,0 +1,9 @@
+{{ if .Site.Params.banner.enable }}
+{{"<!-- Welcome Slider-->" | safeHTML}}
+<section class="hero-area" style='background-image: url("{{ .Site.Params.banner.bgImage | absURL }}");'>
+    <div class="block">
+      <img alt="header logo" src="/images/slider/summit-logo.gif" />
+    </div>
+</section>
+{{"<!-- /Welcome Slider-->" | safeHTML}}
+{{end}}

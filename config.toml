@@ -44,9 +44,9 @@ custom_css = ["css/custom.css"]
     # Banner Section
     [params.banner]
     enable = true
-    heading = "Summit Roofing | Roseville"
+    heading = "Summit Roofing of Roseville"
     content = "Serving Sacramento, Placer, El Dorado, & Yolo Counties"
-    bgImage = "images/slider/roofing-banner.jpg"
+    bgImage = ""
     btn = false
 
     # call to action
@@ -54,13 +54,14 @@ custom_css = ["css/custom.css"]
     enable = true
     title = "Contact us"
     content = "Use the button below to call us!"
-    btnURL = "#Home"
-    btnText = "(916) 969-4664"
+    btnURL = "#contact-us"
+    btnText = "GET A QUOTE"
+    icon = "tf-ion-android-call"
 
     # counter
     [params.counter]
     enable = false
-    bgImage = "images/backgrounds/orange-pattern-roof-medium.jpg"
+    bgImage = "images/backgrounds/shingles.jpeg"
         [[params.counter.counterItem]]
         title = "Happy Clients"
         icon = "tf-ion-android-happy"

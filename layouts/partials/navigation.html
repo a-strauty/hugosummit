@@ -3,7 +3,13 @@
         <div class="container">
 
                 {{"<!-- logo -->" | safeHTML}}
-                  <a class="navbar-brand logo" href="{{ .Site.BaseURL | absURL }}">
+
+                  <a class="navbar-call-button" href="{{ .Site.Params.cta.btnURL | safeURL }}">
+                    <span class="navbar-call-icon"><i class="{{with .Site.Params.cta.icon}} {{ . }} {{ end }}"></i></span>
+                    <span class="navbar-call-label font-weight-bold">call</span>
+                  </a>
+
+                  <a class="navbar-brand logo fade-scroll" href="{{ .Site.BaseURL | absURL }}">
                           <img src="{{ .Site.Params.logo | absURL }}" alt="Logo" />
                           <span class="pl-2 font-weight-bold">{{ .Site.Title }}</span>
                   </a>
@@ -12,7 +18,7 @@
                 {{"<!-- responsive nav button -->" | safeHTML}}
 
                 <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-menu-label font-weight-bold">menu |</span> 
+                        <span class="navbar-menu-label font-weight-bold">menu</span>
                         <span class="navbar-toggler-icon"></span>
                 </button>
                 {{"<!-- /responsive nav button -->" | safeHTML}}
