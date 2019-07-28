@@ -4,10 +4,10 @@
 
                 {{"<!-- logo -->" | safeHTML}}
 
-                  <a class="navbar-call-button" href="{{ .Site.Params.cta.btnURL | safeURL }}">
+                  <button class="navbar-call-button" href="{{ .Site.Params.cta.btnURL | safeURL }}">
                     <span class="navbar-call-icon"><i class="{{with .Site.Params.cta.icon}} {{ . }} {{ end }}"></i></span>
                     <span class="navbar-call-label font-weight-bold">call</span>
-                  </a>
+                  </button>
 
                   <a class="navbar-brand logo fade-scroll" href="{{ .Site.BaseURL | absURL }}">
                           <img src="{{ .Site.Params.logo | absURL }}" alt="Logo" />

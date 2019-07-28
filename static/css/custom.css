@@ -1,3 +1,29 @@
+/* ============= FONT SECTION ============= */
+
+
+
+body {
+  color: #161616;
+  font-weight: 300;
+}
+
+ .title h1,
+ .title h2,
+ .title h3,
+ .title h4,
+ .title h5,
+ .title h6 {
+  color: #161616;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #161616;
+  font-weight: 400;
+}
+
+/* ============= LAYOUT SECTION ============= */
+
 body {
   background-color: white !important;
 }
@@ -6,72 +32,151 @@ body {
   background-color: transparent;
 }
 
-.hero-area:before {
-  background-color: transparent;
-}
-
-.hero-area {
-  height: 20vh;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-#navigation {
-  background-color: #fff;
-  border-bottom: 3px solid #772021;
-}
-
-.navigation .navbar-call-button {
-  font-size: 1.25rem;
-  line-height: 1;
-  color: #212529;
-}
-
-.navigation .navbar-toggler {
-  border-color: #212529;
-  border-width: 0px 0px 0px 2px;
-}
-
-.navigation .navigation-menu li a {
-  color: #292f36;
-}
-
-.navigation .navigation-menu li a.active {
-  color: #772021;
-}
-
-.navbar-brand {
-  font-size: 1.1rem;
-}
-
-.navbar-toggler {
-  position: relative;
-}
-
-.navbar-toggler:focus{
-  outline-color: white;
-}
-
 a {
   color: #212529;
 }
 
-#cta.section-sm {
-  padding: 25vh 0 0 0;
-}
+  /* ======== HERO ======== */
 
-#cta .container {
-  padding: 0;
-}
+  .hero-area:before {
+    background-color: transparent;
+  }
 
-#cta .cta-block {
-  padding: 20px 20px;
-  background-color: #772021;
-}
+  .hero-area {
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 
-#cta .col-lg-12 {
-  border: 1px solid rbga(255,255,255,0.5);
-}
+
+  /* ======== NAVIGATION ======== */
+
+  #navigation {
+    background-color: #fff;
+    border-bottom: 3px solid #772021;
+  }
+
+  .navigation .navbar-call-button {
+    font-size: 1.25rem;
+    line-height: 1;
+    color: #212529;
+  }
+
+  .navigation .navbar-toggler {
+    border-color: #212529;
+    border-width: 0px 0px 0px 2px;
+  }
+
+  .navigation .navigation-menu li a {
+    color: #292f36;
+  }
+
+  .navigation .navigation-menu li a.active {
+    color: #772021;
+  }
+
+  .border-meghna:before {
+    background-color: #201e48;
+  }
+
+
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+
+  .navbar-toggler {
+    position: relative;
+  }
+
+  .navbar-toggler:focus{
+    outline-color: white;
+  }
+
+
+  .logo {
+    width: 107px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .logo span {
+    position: absolute;
+    left: 40px;
+  }
+
+  .navbar-menu-label {
+    position: absolute;
+    left: -55px;
+    top: 9px;
+    color: #212529;
+  }
+
+
+  /* ======== CALL TO ACTION ======== */
+
+  #cta.section-sm {
+    padding: 25vh 0 0 0;
+  }
+
+  #cta .container {
+    padding: 0;
+  }
+
+  #cta .cta-block {
+    padding: 20px 20px;
+    background-color: #772021;
+  }
+
+  #cta .col-lg-12 {
+    border: 1px solid rbga(255,255,255,0.5);
+  }
+
+  .cta-block {
+    padding: 60px 20px;
+        border-left: 1px solid rgba(236,239,241,.07);
+        border-top: 1px solid rgba(236,239,241,.07);
+        margin-bottom: 40px;
+        box-shadow: 2px 2px 5px rgba(44,44,44,.3), 13px 13px 0 rgba(255,255,255,.7);
+    background-color: white;
+    }
+
+  /* ======== SERVICES ======== */
+
+  .service-block {
+    width: 350px;
+    height: 500px;
+  }
+
+  #services .service-block p {
+    padding: 0 30px;
+  }
+
+  .custom-repairs::before {
+    content: url("/images/services/repairs.jpg");
+  }
+
+  .custom-reroofs::before {
+    content: url("/images/services/reroofs.jpg");
+  }
+
+  .custom-commercial::before{
+    content: url("/images/services/commercial.jpg");
+  }
+
+  .custom-residential::before {
+    content: url("/images/services/residential.jpg");
+  }
+
+  .custom-products::before {
+    content: url("/images/services/products.jpg");
+  }
+
+  /* ======== ABOUT US ========*/
+
+  .about .block {
+    background: none;
+  }
 
 .picture {
   width: 100%;
@@ -83,79 +188,8 @@ a {
 }
 
 
-.about h3 {
-  color: #212529;
-}
 
-.logo {
-  width: 107px;
-  height: 40px;
-  position: relative;
-  overflow: hidden;
-}
 
-.logo span {
-  position: absolute;
-  left: 40px;
-}
 
-.navbar-menu-label {
-  position: absolute;
-  left: -55px;
-  top: 9px;
-  color: #212529;
-}
 
-.title h2 {
-  color: #212529;
-}
-
-.title h2 span {
-  color: #201e48;
-}
-
-.border-meghna:before {
-  background-color: #201e48;
-}
-
-.cta-block {
-  padding: 60px 20px;
-      border-left: 1px solid rgba(236,239,241,.07);
-      border-top: 1px solid rgba(236,239,241,.07);
-      margin-bottom: 40px;
-      box-shadow: 2px 2px 5px rgba(44,44,44,.3), 13px 13px 0 rgba(255,255,255,.7);
-  background-color: white;
-  }
-
-.about .block {
-  background: none;
-}
-
-.about .block .content h3 {
-  color: #212529;
-}
-
-.service-block {
-  width: 350px;
-  height: 500px;
-}
-
-.custom-repairs::before {
-  content: url("/images/services/repairs.jpg");
-}
-
-.custom-reroofs::before {
-  content: url("/images/services/reroofs.jpg");
-}
-
-.custom-commercial::before{
-  content: url("/images/services/commercial.jpg");
-}
-
-.custom-residential::before {
-  content: url("/images/services/residential.jpg");
-}
-
-.custom-products::before {
-  content: url("/images/services/products.jpg");
-}
+/* ============= MEDIA CALLOUT SECTION ============= */
