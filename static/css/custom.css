@@ -203,6 +203,7 @@ a {
     background: url("/images/backgrounds/sacramento-1920.jpg");
     height: 40vh;
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
   }
 }
