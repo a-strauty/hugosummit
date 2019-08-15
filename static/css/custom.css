@@ -36,6 +36,10 @@ a {
   color: #212529;
 }
 
+.section {
+  padding: 10px 0;
+}
+
   /* ======== HERO ======== */
 
   .hero-area:before {
