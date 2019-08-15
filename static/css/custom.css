@@ -146,46 +146,39 @@ a {
   .service-block {
     width: 350px;
     height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .service-block .service-icon {
+    margin-bottom: 25px;
   }
 
   #services .service-block p {
     padding: 0 30px;
   }
 
-  .custom-repairs::before {
-    content: url("/images/services/repairs.jpg");
+  #services img {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+    height: 200px;
   }
-
-  .custom-reroofs::before {
-    content: url("/images/services/reroofs.jpg");
-  }
-
-  .custom-commercial::before{
-    content: url("/images/services/commercial.jpg");
-  }
-
-  .custom-residential::before {
-    content: url("/images/services/residential.jpg");
-  }
-
-  .custom-products::before {
-    content: url("/images/services/products.jpg");
-  }
-
   /* ======== ABOUT US ========*/
 
   .about .block {
     background: none;
   }
 
-.picture {
-  width: 100%;
-  height: 70vh;
-  background: url("/images/backgrounds/fixedBackgroundiPhoneX.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
+  .picture {
+    width: 100%;
+    height: 40vh;
+    background: url("/images/backgrounds/fixedBackgroundiPhoneX.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 
 
 
@@ -193,3 +186,23 @@ a {
 
 
 /* ============= MEDIA CALLOUT SECTION ============= */
+
+@media (min-width: 992px){
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px){
+
+  .container {
+    max-width: 1140px;
+  }
+
+  .picture {
+    background: url("/images/backgrounds/sacramento-1920.jpg");
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}

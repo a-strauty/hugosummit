@@ -2,22 +2,22 @@ enable : true
 heading : Our
 headingSpan : Services
 serviceItem :
-  - icon : custom-repairs
+  - image : repairs
     title : Leak Repairs
     content : Repairing sloped and flat roofs damaged by weather, shingle deterioration, tree and leaf build-up, and even foot traffic.
 
-  - icon : custom-reroofs
+  - image : reroofs
     title : Reroofs
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
 
-  - icon : custom-commercial
+  - image : commercial
     title : Commercial
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
 
-  - icon : custom-residential
+  - image : residential
     title : Residential
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
 
-  - icon : custom-products
+  - image : products
     title : Products
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
