@@ -188,6 +188,11 @@ a {
   .container {
     max-width: 100%;
   }
+
+  .col-lg-4 {
+    max-width: 40%;
+    margin: auto;
+  }
 }
 
 @media (min-width: 1200px){
