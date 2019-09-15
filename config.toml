@@ -84,8 +84,8 @@ custom_css = ["css/custom.css"]
 
     # footer
     [params.footer]
-        copyright = "Themefisher Team"
-        copyrightURL = "http://www.themefisher.com"
+        copyright = "Adam Strautman"
+        copyrightURL = "https://www.adamstrautman.com"
 
         # social Icons
         [[params.footer.socialIcon]]
