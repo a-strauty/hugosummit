@@ -5,6 +5,7 @@
 body {
   color: #161616;
   font-weight: 300;
+  font-family: 'oswald', sans-serif;
 }
 
  .title h1,
@@ -20,6 +21,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #161616;
   font-weight: 400;
+  font-family: 'oswald', sans-serif;
 }
 
 /* ============= LAYOUT SECTION ============= */
@@ -38,6 +40,21 @@ a {
 
 .section {
   padding: 30px 0;
+}
+
+/**
+ * Reset button styles.
+ * It takes a bit of work to achieve a neutral look.
+ */
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  /* show a hand cursor on hover; some argue that we
+  should keep the default arrow cursor for buttons */
+  cursor: pointer;
 }
 
 
@@ -68,8 +85,13 @@ a {
   }
 
   .navigation .navbar-toggler {
-    border-color: #212529;
-    border-width: 0px 0px 0px 2px;
+     /*border-color: #212529;
+    border-width: 0px 0px 0px 2px; */
+    color: black;
+  }
+
+  .navbar-toggler {
+    padding: 0;
   }
 
   .navigation .navigation-menu li a {
@@ -178,7 +200,11 @@ a {
     background: url("/images/backgrounds/fixedBackgroundiPhoneX.jpg") no-repeat fixed center center / cover rgba(0,0,0,0);
   }
 
+ /* ========= footer =====*/
 
+ .copyright {
+   color: black;
+ }
 
 
 
