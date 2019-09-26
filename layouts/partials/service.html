@@ -1,24 +1,24 @@
 {{ if .Site.Data.service.enable}}
 {{"<!-- service -->" | safeHTML }}
-<section id="services" class="bg-one section">
+<section class="bg-one section">
+  <a class="anchor" id="services"></a>
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 {{"<!-- section title -->" | safeHTML }}
-                <div class="title text-center wow fadeIn" data-wow-duration="500ms">
+                <div class="title text-center">
                     <h2>{{ with .Site.Data.service.heading }} {{ . }} {{ end }}{{ with .Site.Data.service.headingSpan }} {{ . }} {{ end }}</h2>
-                    <div class="border-meghna"></div>
                 </div>
             </div>
             {{"<!-- /section title -->" | safeHTML }}
 
             {{ range .Site.Data.service.serviceItem}}
             {{"<!-- Single Service Item -->" | safeHTML }}
-            <article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
-                <div class="service-block text-center">
-                    <div class="service-icon text-center">
+            <article class="col-lg-4 col-md-6 col-12">
+                <div class="service-block">
+                    <!--<div class="service-icon text-center">
                         <img src="images\services\{{ .image }}.jpg" alt="Example of our {{ .image }} service."></img>
-                    </div>
+                    </div> -->
                     <h3>{{ .title }}</h3>
                     <p>{{ .content }}</p>
                 </div>

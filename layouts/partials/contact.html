@@ -1,13 +1,13 @@
 {{ if .Site.Data.contact.enable }}
 {{"<!-- Start Contact Us -->" | safeHTML}}
-<section id="contact-us" class="contact-us section">
+<section class="contact-us section">
+    <a class="anchor" id="contact-us"></a>
     <div class="container pb-5">
         <div class="row">
             <div class="col-lg-12">
                 {{"<!-- section title -->" | safeHTML}}
                 <div class="title text-center wow fadeIn" data-wow-duration="500ms">
                     <h2>{{ with .Site.Data.contact.heading }} {{ . }} {{ end }} {{ with .Site.Data.contact.headingSpan }} {{ . }} {{ end }}</h2>
-                    <div class="border-meghna"></div>
                 </div>
             </div>
             {{"<!-- /section title -->" | safeHTML}}

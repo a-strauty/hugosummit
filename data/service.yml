@@ -1,6 +1,6 @@
 enable : true
-heading : Our
-headingSpan : Services
+heading : What We
+headingSpan : Do
 serviceItem :
   - image : repairs
     title : Leak Repairs
